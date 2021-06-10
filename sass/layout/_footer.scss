@@ -7,9 +7,6 @@
 .footer .logo{
 margin-bottom: 20px;
 }
-.colorwhite{
-    color: var(--secondary-text-color);
-}
 .address{
     margin-bottom: 9px;
 }
@@ -52,10 +49,10 @@ margin-bottom: 20px;
 .footer-social{
     margin-right: 93px;
 }
-.footer-social .social-list-icon{
+.footer-social .social-list__icon{
     fill: var(--secondary-text-color)
 }
-.footer-social .social-list-link{
+.footer-social .social-list__link{
     background-color:var(--footer-social);
     &:hover,
     &:focus{

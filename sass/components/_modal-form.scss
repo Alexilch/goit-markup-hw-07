@@ -38,7 +38,6 @@
     fill:var(--hover-color);
     }
 }
-
 .form-textarea{
     resize:none;
     height: 96px;
@@ -55,7 +54,6 @@
         color: rgba(117, 117, 117, 0.5);
     }
 }
-
 .checkbox-wrap{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -88,17 +86,29 @@
     background-size: contain;
     margin-right: 9px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-checkbox{
-    &:hover + .checkbox-icon,
-    &:focus + .checkbox-icon{
-        border-color: var(--hover-color);
+
+    .form-checkbox:hover + &,
+    .form-checkbox:focus + &{
+            border-color: var(--hover-color);
     }
-    &:checked + .checkbox-icon{
+    .form-checkbox:checked + &{
         background-color: var(--hover-color);
         background-origin: border-box;
     }
+
 }
+
+// .form-checkbox{
+//     &:hover + .checkbox-icon,
+//     &:focus + .checkbox-icon{
+//         border-color: var(--hover-color);
+//     }
+//     &:checked + .checkbox-icon{
+//         background-color: var(--hover-color);
+//         background-origin: border-box;
+//     }
+// }
+
 .submit-btn{
     margin-top: 20px;
     width: 200px;

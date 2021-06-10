@@ -4,7 +4,7 @@
 .footer-form{
     display: flex;
 }
-.sub-input{
+.footer-form__input{
     width: 342px;
     padding: 0px 0px 0px 16px;
     margin-right: 12px;
@@ -21,15 +21,14 @@
         border-color:var(--overlay-form);
     }
 }
-.email-btn{
+.footer-form__button{
     position: relative;
     padding: 10px 28px;
     width: 200px;
-    height: 50px;
     text-align: left;
     letter-spacing: 0.06em;
 }
-.iconsend{
+.footer-form__icon{
     position: absolute;
     top: 13px;
     right: 28px;

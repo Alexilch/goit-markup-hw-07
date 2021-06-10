@@ -6,7 +6,7 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
-@import "./base/buttons";
+
 
 //layouts
 @import "./layout/logo";
@@ -20,6 +20,7 @@
 @import "./layout/footer";
 
 //components
+@import "./components/buttons";
 @import "./components/social-list-link";
 @import "./components/footer-form";
 @import "./components/backdrop";

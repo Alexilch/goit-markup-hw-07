@@ -6,11 +6,11 @@
 .adress-list{
     display: flex;
     margin-left: 305px;
-    & .adress-item:not(:last-child){
+    & .adress-list__item:not(:last-child){
         margin-right: 30px;
     }
 }
-.adress-item .menu-link{
+.adress-list__item .menu__link{
     padding: 0;
     color: var(--primary-text-color);
 }
@@ -18,13 +18,13 @@
     display: flex;
     margin-left: 93px;
 }
-.menu-item:not(:last-child){
+.menu__item:not(:last-child){
     margin-right: 50px;  
 }
 .contacts{
     margin-left: 10px;
 }
-.menu-link{
+.menu__link{
     display: flex;
     align-items: center;
     font-weight: 500;
