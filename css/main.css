@@ -268,7 +268,7 @@ button {
   position: relative;
 }
 
-.services-list__item_details {
+.services-list__item-details {
   display: flex;
   justify-content: center;
   align-items: center;
