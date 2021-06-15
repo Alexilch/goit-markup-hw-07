@@ -177,7 +177,7 @@ button {
 .current:after {
   content: "";
   display: block;
-  bottom: 0px;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   background-color: var(--hover-color);
